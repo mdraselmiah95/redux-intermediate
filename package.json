@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "redux-one": "npm start --prefix ./redux-one"
+    "redux-one": "npm start --prefix ./redux-one",
+    "redux-two": "npm start --prefix ./redux-two"
   },
   "repository": {
     "type": "git",
