@@ -1,0 +1,20 @@
+{
+  "name": "Redux-intermediate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "redux-one": "npm start --prefix ./redux-one"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdraselmiah95/redux-intermediate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdraselmiah95/redux-intermediate/issues"
+  },
+  "homepage": "https://github.com/mdraselmiah95/redux-intermediate#readme"
+}
