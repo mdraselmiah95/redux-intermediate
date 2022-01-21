@@ -1,4 +1,4 @@
-## Set multiple projects in one git repository:
+# Set multiple projects in one git repository:
 
 - First, make a directory command `mkdir [name] ` and `cd [folder name]`.
 - Make a repository in the GitHub and copy the command code from the created repository.
