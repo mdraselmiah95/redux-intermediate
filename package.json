@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mdraselmiah95/redux-intermediate/issues"
   },
-  "homepage": "https://github.com/mdraselmiah95/redux-intermediate#readme"
+  "homepage": "https://github.com/mdraselmiah95/redux-intermediate#readme",
+  "dependencies": {
+    "react-redux": "^7.2.6"
+  }
 }
