@@ -15,7 +15,7 @@ function App() {
         <div className="mt-4 container">
           <Button
             variant="outline-secondary"
-            onClick={() => dispatch(incNumber)}
+            onClick={() => dispatch(incNumber())}
           >
             +
           </Button>
@@ -27,7 +27,7 @@ function App() {
           />
           <Button
             variant="outline-secondary"
-            onClick={() => dispatch(decNumber)}
+            onClick={() => dispatch(decNumber())}
           >
             -
           </Button>
