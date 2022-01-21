@@ -1,8 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
+import { useSelector } from "react-redux";
 import "./App.css";
 
 function App() {
+  const myState = useSelector((state) => state.changeTheNumber);
+
   return (
     <>
       <div className="container text-center my-5">
@@ -12,7 +15,7 @@ function App() {
           <Button variant="outline-secondary">+</Button>
           <input
             type="text"
-            value="0"
+            value={myState}
             className="mx-2"
             style={{ width: "33px", height: "33px", borderRadius: "5px" }}
           />
