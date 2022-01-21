@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Container } from "react-bootstrap";
+import { Button, Container, Input } from "react-bootstrap";
 import "./App.css";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <h4 className="text-secondary fw-bold">using React and Redux</h4>
         <Container className="my-3">
           <Button variant="outline-secondary">+</Button>
+          <Input value="0" variant="outline-secondary" />
           <Button variant="outline-secondary">-</Button>
         </Container>
       </div>
