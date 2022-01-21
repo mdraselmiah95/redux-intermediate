@@ -15,7 +15,7 @@ function App() {
         <div className="mt-4 container">
           <Button
             variant="outline-secondary"
-            onClick={() => dispatch(incNumber())}
+            onClick={() => dispatch(incNumber(5))}
           >
             +
           </Button>
@@ -23,7 +23,12 @@ function App() {
             type="text"
             value={myState}
             className="mx-2"
-            style={{ width: "33px", height: "33px", borderRadius: "5px" }}
+            style={{
+              width: "37px",
+              height: "37px",
+              borderRadius: "5px",
+              textAlign: "center",
+            }}
           />
           <Button
             variant="outline-secondary"
